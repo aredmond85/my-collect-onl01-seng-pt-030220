@@ -5,8 +5,8 @@
 #Put code from the block into the collection array (use yield)
 
 def my_collect(array)
-  collection = []
   i = 0
+  collection = []
   while i < array.length
     collection <<< yield(array[i])
     i += 1
